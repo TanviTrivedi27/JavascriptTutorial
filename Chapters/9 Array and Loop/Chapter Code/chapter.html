@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Array</title>
+  </head>
+  <body>
+    <script>
+      // let numbers = [1, 2, 3, 4, 3, 5, 6, 7];
+      // console.log(numbers);
+      // console.log(numbers.length);
+
+      // console.log(numbers[0]);
+      // let obj = { abc: 987 };
+      // let x = [1, true, null, "asde"];
+      // console.log(x[3]);
+      // console.log(typeof x);
+      // console.log(Array.isArray(x));
+      // console.log(Array.isArray(obj));
+
+      // let arr = [1, 2, 3];
+      // console.log(arr);
+      // arr.push(6);
+      // console.log(arr);
+      // console.log("popped " + arr.pop());
+      // console.log(arr);
+      // console.log("popped " + arr.pop());
+      // console.log(arr);
+      // arr.unshift(9);
+      // console.log(arr);
+      // arr.shift();
+      // console.log(arr);
+      // arr.unshift(4);
+      // console.log(arr);
+      // arr.shift();
+      // console.log(arr);
+
+      // let arr = [3, 5, 7, 6];
+      // console.log(arr);
+      // arr.splice(1, 1);
+      // console.log(arr);
+
+      let arr = [9, 8, 3, 5, 7, 6];
+      console.log(arr);
+      console.log(arr.toString());
+      arr.sort();
+      console.log(arr);
+      console.log(arr.valueOf());
+      let arr2 = arr;
+      arr[0] = 99;
+      console.log(arr);
+
+      let [a, b, c, d] = arr;
+      console.log(a + " " + b + " " + c + " " + d);
+    </script>
+  </body>
+</html>
